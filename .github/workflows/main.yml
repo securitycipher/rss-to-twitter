@@ -11,7 +11,7 @@ jobs:
       - uses: azu/rss-to-twitter@v1
         with:
           # RSS feed URL
-          RSS_URL: "https://hnrss.org/newest"
+          RSS_URL: "https://medium.com/feed/tag/bug-bounty"
           TWEET_TEMPLATE: 'New Post: "%title%" %url%'
           UPDATE_WITHIN_MINUTES: 15 # for workflow_dispatch
           TWITTER_APIKEY: ${{ secrets.TWITTER_APIKEY }}
