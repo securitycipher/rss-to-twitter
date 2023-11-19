@@ -12,7 +12,7 @@ jobs:
         with:
           # RSS feed URL
           RSS_URL: "https://medium.com/feed/tag/bug-bounty"
-          TWEET_TEMPLATE: '%title% : %url%'
+          TWEET_TEMPLATE: '%title% : %url% #bugbounty #bugbountytips #bugbountytip #hackerone #bugcrowd #infosec #cybersecurity #pentesting #redteam #informationsecurity '
           UPDATE_WITHIN_MINUTES: 60 # for workflow_dispatch
           TWITTER_APIKEY: ${{ secrets.TWITTER_APIKEY }}
           TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_APIKEY_SECRET }}
