@@ -1,4 +1,4 @@
-name: hackerone-reports
+name: medium-cybersecurity
 on:
   schedule:
     # every 15 minutes
