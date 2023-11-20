@@ -1,4 +1,4 @@
-name: rss-to-twitter
+name: medium-writeups
 on:
   schedule:
     # every 15 minutes
