@@ -16,7 +16,7 @@ jobs:
             %title%
             %url%
             
-            #bugbounty #bugbountytips #bugbountytip #hackerone #bugcrowd #infosec #cybersecurity #pentesting #redteam #INDvsAUSfinal
+            #bugbounty #bugbountytips #bugbountytip #cybersecurity #bugcrowd #infosec
           UPDATE_WITHIN_MINUTES: 15 # for workflow_dispatch
           TWITTER_APIKEY: ${{ secrets.TWITTER_APIKEY }}
           TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_APIKEY_SECRET }}
