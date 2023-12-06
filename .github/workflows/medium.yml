@@ -16,7 +16,7 @@ jobs:
             %title%
             %url%
             
-            #bugbounty #bugbountytips #bugbountytip #cybersecurity #bugcrowd #infosec #pentesting
+            #bugbounty #bugbountytips #bugbountytip #cybersecurity #bugcrowd #infosec
           UPDATE_WITHIN_MINUTES: 59 # for workflow_dispatch
           TWITTER_APIKEY: ${{ secrets.TWITTER_APIKEY }}
           TWITTER_APIKEY_SECRET: ${{ secrets.TWITTER_APIKEY_SECRET }}
