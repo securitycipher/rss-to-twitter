@@ -8,7 +8,7 @@ jobs:
   twitter:
     runs-on: ubuntu-latest
     steps:
-      - uses: azu/rss-to-twitter@v1
+      - uses: azu/rss-to-twitter@v2
         with:
           # RSS feed URL
           RSS_URL: "https://medium.com/feed/tag/bug-bounty"
