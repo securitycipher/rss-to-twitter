@@ -1,5 +1,5 @@
 # Youtube - Namhec Channel
-name: medium-writeups
+name: youtube-NahamSec-videos
 on:
   schedule:
     # every 15 minutes
