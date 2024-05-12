@@ -17,7 +17,7 @@ jobs:
           postFormat: "New post: {title}\n\n{link}"
           # Mastodon settings
           mastodonEnable: false
-          mastodonPostFormat: "New post: {title}\n\n{link}"
+          mastodonPostFormat: "New post: {title}\n\n{link}\n\n"
           mastodonInstance: 'https://mas.to'
           mastodonAccessToken: 'MASTODON_ACCESS_TOKEN'
           mastodonPostVisibility: 'unlisted'
@@ -28,7 +28,7 @@ jobs:
           mastodonMetadataFieldIndex: 0
           # Twitter settings
           twitterEnable: true
-          twitterPostFormat: "{title}\n\n{link}"
+          twitterPostFormat: "{title}\n\n{link}\n\n#bugbounty #bugbountytips #bugbountytip"
           twitterApiKey: ${{ secrets.TWITTER_APIKEY }}
           twitterApiKeySecret: ${{ secrets.TWITTER_APIKEY_SECRET }}
           twitterAccessToken: ${{ secrets.TWITTER_ACCESS_TOKEN }}
