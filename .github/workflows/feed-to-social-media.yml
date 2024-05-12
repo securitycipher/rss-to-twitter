@@ -29,10 +29,10 @@ jobs:
           # Twitter settings
           twitterEnable: true
           twitterPostFormat: "{title}\n\n{link}"
-          twitterApiKey: 'avjBTGlVbkuKzNR4ON6GHqxDz'
-          twitterApiKeySecret: 'mLUDTWQNlVaML9AvA6aqMLyQzL1oReLapaR2Ib5wE5R0RyaJTC'
-          twitterAccessToken: 'MVhXUDd3ZWR3T3NHRmx0LXFLWEk6MTpjaQ'
-          twitterAccessTokenSecret: 'RLQcTIuIpfNb62SdM-7JCXpRi_jShK_Vf_UHeYsiQPepF9Hxzj'
+          twitterApiKey: ${{ secrets.TWITTER_APIKEY }}
+          twitterApiKeySecret: ${{ secrets.TWITTER_APIKEY_SECRET }}
+          twitterAccessToken: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          twitterAccessTokenSecret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           # Discord settings
           discordEnable: false
           discordPostFormat: "New post: {title}\n\n{link}"
