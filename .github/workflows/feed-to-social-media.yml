@@ -28,7 +28,7 @@ jobs:
           mastodonMetadataFieldIndex: 0
           # Twitter settings
           twitterEnable: true
-          twitterPostFormat: "{title}\n\n{link}\n\n#bugbounty #bugbountytips #bugbountytip"
+          twitterPostFormat: "{title}\n{link}\n\n#bugbounty #bugbountytips #bugbountytip"
           twitterApiKey: ${{ secrets.TWITTER_APIKEY }}
           twitterApiKeySecret: ${{ secrets.TWITTER_APIKEY_SECRET }}
           twitterAccessToken: ${{ secrets.TWITTER_ACCESS_TOKEN }}
