@@ -1,4 +1,4 @@
-name: Feed to social media
+name: medium-bugbounty
 on:
   schedule:
     # every 15 minutes
